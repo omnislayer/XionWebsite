@@ -13,6 +13,15 @@
 	/* flex: 1 0 auto; */
 /* } */
 /* End sticky footer */
+
+/* NEW */
+.height-follow{
+    height:100vh;
+}
+.carousel .carousel-item {
+	height:100vh !important;
+}
+/* End NEW */
 nav ul a,
 nav .brand-logo {
   color: #444;
