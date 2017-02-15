@@ -4,7 +4,11 @@
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
     $('.scrollspy').scrollSpy();
-  $('.carousel.carousel-slider').carousel({fullWidth: true});
+    // $('.scrollspy').scrollSpy({
+		// scrollOffset: $(window).height();
+	// });
+	// $('.carousel').carousel();
+    $('.carousel.carousel-slider').carousel({fullWidth: true});
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space

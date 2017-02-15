@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Geomtr';
+    src: url('../fonts/geomtr/geomtr.eot');
+    src: local('../fonts/geomtr/geomtr'), 
+         local('../fonts/geomtr/geomtr'), 
+         url('../fonts/geomtr/geomtr.ttf') format('truetype'),
+         url('../fonts/geomtr/geomtrsvg#font') format('svg'); 
+}

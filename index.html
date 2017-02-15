@@ -1,10 +1,17 @@
 <!-- 
 Read Me!
-Change Logo Image. Use .SVG for better quality! it is labelled = CHANGE ME!
-Uncomment the fonts. OR Download the fonts! label = Fonts
 This webpage uses a SPECIAL version on Materialize lolz called ghpages-materialize From Github.
 
-class height-follow is made by glynn.
+Changes: 
+1. Change Logo Image. Use .SVG for better quality! it is labelled = CHANGE ME!
+2. Change fonts
+
+Problems:
+1. Scrollspy has a problem. Won't scroll enough to get to the place.
+
+User Defined Stuff:
+1.height-follow is made by glynn.
+2.shadow-text is made by glynn
  -->
 <!DOCTYPE html>
 <html>
@@ -13,16 +20,18 @@ class height-follow is made by glynn.
 			Xion by Glynn Bacanto
 		</title>
 		<!-- Fonts -->
-		<!-- <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">   -->
+		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
 		<!-- <link href="//db.onlinewebfonts.com/c/bbb4a2324bd99e38040904f3983d9ba3?family=Geometr415+Blk+BT+Black" rel="stylesheet" type="text/css"/><!-- To use: font-family:"Geometr415 Blk BT Black" !important; -->
 		
 		<!--CSS-->
 		<!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/> -->
 		<link type="text/css" rel="stylesheet" href="css/ghpages-materialize.css"  media="screen,projection"/> <!-- Special Version of Materialize! -->
+		<link type="text/css" rel="stylesheet" href="css/geomtr.css" type="text/css"> <!--My Special CUSTOM FONT!-->
 		<link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
 
 		<!--Let browser know website is optimized for mobile-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta charset="utf-8"/>
 	</head>
 	
 	<body>
@@ -36,43 +45,87 @@ class height-follow is made by glynn.
 		<div>
 			<ul id="nav-mobile" class="side-nav fixed grey darken-2 z-depth-5">
 				<li class="logo">
-					<a id="logo-container" href="#" class="brand-logo">
+					<a id="logo-container" href="#About" class="brand-logo">
 						<object id="front-page-logo" type="image/svg+xml" data="res/Logo_Plain.svg"><br/></object>
 					</a>
 				</li>
-				<li class="bold"><a href="#About" class="waves-effect waves-teal">About the team</a></li>
-				<li class="bold"><a href="#Portfolio" class="waves-effect waves-teal">Portfolio</a></li>
-				<li class="bold"><a href="#ContactUs" class="waves-effect waves-teal">Contact Us</a></li>
+				<li><a href="#About" class=" center waves-effect waves-teal">About us</a></li>
+				<li><a href="#Team" class=" center waves-effect waves-teal">The Team</a></li>
+				<li><a href="#Portfolio" class=" center waves-effect waves-teal">Portfolio</a></li>
+				<li><a href="#ContactUs" class=" center waves-effect waves-teal">Contact Us</a></li>
 			</ul>
 		</div>
 	</header>
 	<!-- End Side Nav -->
 	<!-- Start Content -->
 	<main> 
-		<div id="About" class="height-follow valign-wrapper">
-			<div class="carousel carousel-slider center" data-indicators="true">
-				<div class="carousel-item red white-text" href="#one!">
-					<!-- <img src="res/images/bg_temp.jpg"> -->
-					<h2>Person</h2>
-					<p class="white-text">Person Description</p>
-					<a class="btn waves-effect white grey-text darken-text-2">Button to person 1 portfolio</a>
+		<div id="About" class="carousel carousel-slider center" data-indicators="true">
+			<div class="carousel-item red white-text" href="#one!" style="background-image:url('res/images/1.png'); background-size: 100vw;">
+				<div class="left-align shadow-text-5" style="padding-left: 10px;">
+					<h1>We</h1>
+					<h1>are</h1>
+					<h1>Xion</h1>
 				</div>
-				<div class="carousel-item amber white-text" href="#two!">
-					<h2>Person 2</h2>
-					<p class="white-text">Person Description 2</p>
-					<a class="btn waves-effect white grey-text darken-text-2">Button to person 2 portfolio</a>
-				</div>
-				<div class="carousel-item green white-text" href="#three!">
-					<h2>Person 3</h2>
-					<p class="white-text">Person Description 3</p>
-					<a class="btn waves-effect white grey-text darken-text-2">Button to person 3 portfolio</a>
+				<p class="white-text right-align shadow-text-3" style="padding-right:10px;";>Description</p>
+				<a class="btn waves-effect white grey-text darken-text-2">Learn More</a>
+			</div>
+			<div class="carousel-item amber white-text" href="#two!" style="background-image:url('res/images/2.png'); background-size: 100vw;">
+				<h1 class="shadow-text-5">Who are you?</h1>
+				<p class="white-text shadow-text-3">Stuffs and Thangs bby</p>
+			</div>
+			<div class="carousel-item amber white-text" href="#three!" style="background-image:url('res/images/3.png'); background-size: 100vw;">
+				<h1 class="shadow-text-5">Pricing?</h1>
+				<p class="white-text shadow-text-3">Stuffs and Thangs bby</p>
+			</div>
+		</div>
+		<div id="Team" class="carousel carousel-slider center" data-indicators="true">
+			<div class="carousel-item red white-text" href="#one!">
+				<!-- <img src="res/images/bg_temp.jpg"> -->
+				<h2>Person</h2>
+				<p class="white-text">Person Description</p>
+				<a class="btn waves-effect white grey-text darken-text-2">Button to person 1 portfolio</a>
+			</div>
+			<div class="carousel-item amber white-text" href="#two!">
+				<h2>Person 2</h2>
+				<p class="white-text">Person Description 2</p>
+				<a class="btn waves-effect white grey-text darken-text-2">Button to person 2 portfolio</a>
+			</div>
+			<div class="carousel-item green white-text" href="#three!">
+				<h2>Person 3</h2>
+				<p class="white-text">Person Description 3</p>
+				<a class="btn waves-effect white grey-text darken-text-2">Button to person 3 portfolio</a>
+			</div>
+		</div>
+		<div id="Portfolio" class="height-follow">
+			<div class="container valign-wrapper">
+				<div class="section">
+					<div class="row">
+						<div class="col s12 m4">
+							<div class="icon-block">
+								<h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+								<h5 class="center">Speeds up development</h5>
+								<p class="light">ASDASD</p>
+							</div>
+						</div>
+						<div class="col s12 m4">
+							<div class="icon-block">
+								<h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+								<h5 class="center">User Experience Focused</h5>
+								<p class="light">ASDASBDAHBSDHADB</p>
+							</div>
+						</div>
+						<div class="col s12 m4">
+							<div class="icon-block">
+								<h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+								<h5 class="center">Easy to work with</h5>
+								<p class="light">ASDASDASD</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div id="Portfolio" class="height-follow valign-wrapper">
-		to be added
-		</div>
-		<div id="ContactUs" class="height-follow valign-wrapper">
+		<div id="ContactUs" class="scrollspy">
 		to be added
 		</div>
     </main>   

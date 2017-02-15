@@ -19,7 +19,29 @@
     height:100vh;
 }
 .carousel .carousel-item {
+	/* font-family:'Geomtr' !important; */
 	height:100vh !important;
+}
+.shadow-text-5{
+    text-shadow: 5px 5px 10px #000000;
+}
+.shadow-text-4{
+    text-shadow: 4px 4px 8px #000000;
+}
+.shadow-text-3{
+    text-shadow: 3px 3px 6px #000000;
+}
+.shadow-text-2{
+    text-shadow: 2px 2px 4px #000000;
+}
+.shadow-text-1{
+    text-shadow: 1px 1px 2px #000000;
+}
+h1{
+	font-size: 120px;
+}
+html {
+	font-family: 'Geomtr';
 }
 /* End NEW */
 nav ul a,
