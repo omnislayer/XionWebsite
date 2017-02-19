@@ -37,6 +37,10 @@
 .shadow-text-1{
     text-shadow: 1px 1px 2px #000000;
 }
+.background-special{
+	background-size: 100vw; 
+	background-position: center; 
+}
 h1{
 	font-size: 120px;
 }
