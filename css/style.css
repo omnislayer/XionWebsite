@@ -42,10 +42,20 @@
 	background-position: center; 
 }
 h1{
+	font-family: 'Russo One', sans-serif;
 	font-size: 120px;
 }
-html {
-	font-family: 'Geomtr';
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+header {
+	font-family: 'Russo One', sans-serif;
+}
+header a {
+	font-size: 18px !important;
+}
+p{
+	font-size: 30px !important;
 }
 /* End NEW */
 nav ul a,
